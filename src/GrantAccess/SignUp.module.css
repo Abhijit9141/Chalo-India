@@ -1,0 +1,35 @@
+.form{
+    background-color: rgb(255,192,203);
+    width: 100vw;
+    height: 100vh;
+}
+.form div div{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-size: 1.5em;
+    background-color: rgb(138,43,226);
+    padding: 5em;
+    border-radius: 10px;
+    border: 2px dotted black;
+}
+.form div {
+    padding: 1%;
+    text-align: center;
+    
+}
+.form div input{
+    padding: 1em;
+    width: 20em;
+    margin-top: 2em;
+}
+.form div button{
+    padding: 1em 9.5em;
+    margin-top: 0.8em;
+    background-color: rgb(127,255,212);
+}
+
+.form div input:hover{
+    outline: none;
+}
+

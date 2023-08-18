@@ -1,0 +1,30 @@
+.user-page{
+    position: relative;
+    background-color: white;
+    width: 30%;
+    margin-top: -0.3rem;
+    margin-left: 69.5%;
+}
+/* .user-page h1{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+} */
+
+
+.user-page p{
+    padding: 1.3em;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #054652;
+    display: inline-block;
+    display: flex;
+}
+.user-page p:hover{
+    width: 89.5%;
+    background-color: rgb(241, 241, 241);
+}
+
+.user-page .link-tag{
+    text-decoration: none;
+}

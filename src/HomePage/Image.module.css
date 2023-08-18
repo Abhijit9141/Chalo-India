@@ -1,0 +1,15 @@
+.header-image{
+    background-image: url("../../public/image/road-220058.jpg");
+    height: 30em;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-image h1{
+    text-align: center;
+    font: var(300);
+    font-size: 6rem;
+    line-height: 6rem;
+    margin: 0 25%;
+    color: white;
+}

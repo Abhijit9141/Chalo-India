@@ -1,0 +1,29 @@
+.diff-links{
+    margin-top: 3em;
+    background-color: #eeeeee;
+    font-size: 1.2em;
+    color: #054652;
+    padding: 3em;
+}
+.diff-links p{
+    font-size: 1.4em;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.6em;
+}
+.flex p {
+    display: flex;
+    font-size: 1.4em;
+    color: grey;
+    font-weight: 600;
+}
+
+.flex img{
+    width:3em;
+    height: 2em;
+    padding-right: 3em;
+}
+

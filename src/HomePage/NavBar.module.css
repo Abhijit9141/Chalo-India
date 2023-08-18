@@ -1,0 +1,57 @@
+.nav{
+    height: 7rem;
+    justify-content: space-between;
+    background-color: white;
+    width: 80%;
+    border-bottom: 2px solid rgb(240, 236, 236);
+}
+ 
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.6em;
+}
+
+.nav-items h1{
+    color: #00aff5;
+    font: bold;
+    padding-right: 1.5em;
+}
+
+.container{
+    padding:0 15em;
+}
+
+.nav-items h1:hover{
+    color: #07a1bc;
+}
+
+.icons{
+    font-size: 2.5em;
+    margin-top: 0.5em;
+    margin-right: 0.2em;
+    color:#00aff5 ;
+}
+.flex img{
+    width:4.5em;
+    height: 3.5em;
+    margin-top: 1.7em;
+}
+.nav-items .user-icon{
+    font-size: 2em;
+    padding: 0.6em;
+    border-radius: 50%;
+    color: #00aff5;
+    background-color: rgb(179, 226, 244);
+        
+}
+.icons2{
+    font-size: 3em;
+    padding: 0.2em 0.2em;
+    color:grey;
+    font-weight: bold;
+}
+.true{
+    transition: 0.2s ease-in-out;
+    transform: rotate(180deg);
+}

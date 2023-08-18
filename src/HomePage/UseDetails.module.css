@@ -1,0 +1,49 @@
+.use-details{
+    margin-top: 4%;
+}
+.use-details div{
+    display: flex;
+}
+.use-details h1{
+    padding-top: 1.5em;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    color: #054652;
+}
+.use-details div div:first-child{
+    flex-wrap: wrap;
+    width: 50%;
+}
+.use-details div div:nth-child(2){
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 7em;
+}
+
+.use-details div div p{
+    border-bottom: 1px solid rgb(222, 221, 221);
+    padding-bottom: 3em;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: grey;
+    margin-top: 0.1em;
+    
+}
+.use-details div div h1{
+    font-size: 1.8em;
+    color: #054652;
+    width: 100%;
+    text-align: start;
+}
+
+.use-details button{
+    margin-left: 40%;
+    border-radius: 30px;
+    margin-top: 3.5em;
+    padding: 1.2em 1.6em;
+    background-color: #00aff5;
+    color: white;
+    border: 2px solid white;
+    font-weight: 600;
+}

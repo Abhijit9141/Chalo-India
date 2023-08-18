@@ -1,0 +1,105 @@
+.about-info{
+    display: flex;
+    
+}
+.logo{
+    font-size: 4em;
+    color: grey;
+}
+.about-info h1{
+    font-size: 2em;
+    padding-top: 0.1em;
+    color: #054652;
+}
+.about-info p{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: grey;
+}
+
+.about-info div{
+    margin: 6% 5%;
+}
+.about-info div:nth-child(2){
+    width: 40%;
+}
+.about-ride{
+    display: flex;
+    padding-top: 4%;
+}
+
+.about-ride div:first-child ,
+.about-document div:last-child{
+    background-image: url("../image//two-tourist-catching-car-road_74855-15561.avif");
+    width: 50%;
+    height: 25em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.about-ride div:nth-child(2) ,
+.about-document div:nth-child(2){
+    padding: 0 2%;
+    width: 50%;
+    margin-left: 5%;
+}
+.about-ride div:nth-child(2) h1 ,
+.about-document .info h1{
+    font-size: 3em;
+    color: #054652;
+}
+.about-ride div:nth-child(2) p ,
+.about-document .info p{
+    font-size: 1.5em;
+    color: grey;
+    font-weight: 600;
+}
+.about-ride div:nth-child(2) button ,
+.about-document button{
+    margin-left: 40%;
+    border-radius: 30px;
+    padding: 1.2em 1.6em;
+    background-color: #00aff5;
+    color: white;
+    border: 2px solid white;
+    font-weight: 600;
+}
+/* ******************************document***************************** */
+
+.about-document{
+    display: flex;
+    padding-top: 3%;
+    background-color: rgb(61,181,255);
+    padding-bottom: 4%;
+    margin: 2.5% 0%;
+
+}
+.about-document div:last-child{
+    background-image: url("../image/1692272812021.jpg");
+    width: 17%;
+    margin-left: 10%;
+    padding: 2.5em;
+    border: rgb(24, 115, 171);
+}
+
+.about-document .info{
+    width: 30%;
+    margin-left: 25em;
+}
+
+.about-document .info p{
+    color: black;
+}
+.about-document .info h1{
+    color: black;
+}
+.about-document .info button{
+    background-color: white;
+    color: #00aff5;
+    margin-left: 30%;
+}
+
+
