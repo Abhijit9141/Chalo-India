@@ -1,49 +1,29 @@
-import { useState } from "react";
+import { Link } from "react-router-dom";
+import { AiOutlineRight } from "react-icons/ai";
 import Styles from "./SignUp.module.css"
 const SignUp = () =>{
-    const[getName , setName] = useState("");
-    const[getPhone , setPhone] = useState("");
-    const[getEmail , setEmail] = useState("");
-    const[getPassword , setPassword] = useState("");
-    const[getConfirmPassword , setConfirmPassword] = useState("");
-
-    const nameChange = () =>{
-        setName();
-    }
-    const phoneChange = () =>{
-        setPhone();
-    }
-    const emailChange = () =>{
-        setEmail();
-    }
-    const passwordChange = () =>{
-        setPassword();
-    }
-    const confirmPasswordChange = () =>{
-        setConfirmPassword();
-    }
-    const submitHandler = (event) =>{
-        event.preventDefault();
-    }
-    
     return(
         <>
-        
-        <form onSubmit={submitHandler}>
-            <div className={Styles.form}>
+        <header>
+            <div className={Styles["signup-details"]}>
+                <p>How do you want to sign up?</p>
+                <div className={Styles["select-signup"]}>
                 <div>
+                    <Link to="email" className={Styles.link}>Continue With Phone Number</Link>
+                    <AiOutlineRight />
+                </div>
                 <div>
-                    <input type="text" id="name" value={getName} placeholder="Enter your name" onChange={nameChange}/><br />
-                    <input type="text" inputmode="numeric" id="phone" value={getPhone} placeholder="Enter your phone number" onChange={phoneChange}/><br />
-                    <input type="email" id="email" value={getEmail} placeholder="Enter your email" onChange={emailChange}/><br />
-                    <input type="password" id="password" value={getPassword} placeholder="Enter your password" onChange={passwordChange}/><br />
-                    <input type="password" id="confirmPassword" value={getConfirmPassword} placeholder="Enter your confirmPassword" onChange={confirmPasswordChange}/><br />
-                    <button>SignUp</button>
+                    <Link className={Styles.link}>Continue With Google</Link>
+                    <AiOutlineRight />
                 </div>
                 </div>
             </div>
-        </form>
+            <div className={Styles["already-member"]}>
+                <p>Already a member?<Link to="../LogIn" className={Styles.p}>Log in</Link></p>
+            </div>
+        </header>
         </>
     )
 }
-export default  SignUp;
+
+export default SignUp; 

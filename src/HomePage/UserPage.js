@@ -6,7 +6,7 @@ const UserPage = () => {
         <>
         <div className={Styles["user-page"]}>
         <div >
-           <Link to="/LogIn" className={Styles["link-tag"] }> <p>Login </p> </Link> 
+           <Link to="/LogIn" className={Styles["link-tag"] }> <p >Login </p> </Link> 
             <Link to="/SignUp" className={Styles["link-tag"]}> <p>SignUp</p></Link>
         </div>
         </div>

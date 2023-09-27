@@ -2,15 +2,9 @@
     position: relative;
     background-color: white;
     width: 30%;
-    margin-top: -0.3rem;
+    margin-top: 2rem;
     margin-left: 69.5%;
 }
-/* .user-page h1{
-    display: flex;
-    justify-content: end;
-    text-align: end;
-} */
-
 
 .user-page p{
     padding: 1.3em;
@@ -21,7 +15,7 @@
     display: flex;
 }
 .user-page p:hover{
-    width: 89.5%;
+    width: 100%;
     background-color: rgb(241, 241, 241);
 }
 

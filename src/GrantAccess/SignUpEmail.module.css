@@ -1,0 +1,39 @@
+.input-details p{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #054652;
+    padding-top: 2em;
+}
+.input-details div{
+    text-align: center;
+    
+}
+.input-details input:focus{
+    outline:3px solid #00aff5;
+}
+.input-details input{
+    padding:1.2em;
+    padding-right: 25em;
+    margin-top: 2em;
+    border-top-right-radius:12px ;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius:12px ;
+    border-bottom-left-radius: 12px;
+    background-color: #f2efef;
+    border: none;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+.input-details button{
+    margin-top: 2em;
+}
+
+.input-details button{
+    padding: 1.2em 2.4em;
+    border-radius: 50px;
+    background-color: #00aff5;
+    border: none;
+    font-weight: bold;
+    color: white;
+}

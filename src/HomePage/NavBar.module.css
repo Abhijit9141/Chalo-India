@@ -1,11 +1,12 @@
-.nav{
-    height: 7rem;
-    justify-content: space-between;
-    background-color: white;
-    width: 80%;
-    border-bottom: 2px solid rgb(240, 236, 236);
+.header{
+    background-color: #07a1bc;
 }
- 
+.nav{
+    height: 8rem;
+    justify-content: space-between;
+    background-color: white;    
+}
+
 .flex{
     display: flex;
     justify-content: space-between;
@@ -16,6 +17,7 @@
     color: #00aff5;
     font: bold;
     padding-right: 1.5em;
+    padding-top: 0.5em;
 }
 
 .container{
@@ -28,30 +30,41 @@
 
 .icons{
     font-size: 2.5em;
-    margin-top: 0.5em;
+    margin-top: 0.3em;
     margin-right: 0.2em;
     color:#00aff5 ;
 }
 .flex img{
     width:4.5em;
     height: 3.5em;
-    margin-top: 1.7em;
+    margin-top: 1.5em;
 }
 .nav-items .user-icon{
-    font-size: 2em;
-    padding: 0.6em;
+    font-size: 4em;
+    padding: 0.2em;
     border-radius: 50%;
     color: #00aff5;
     background-color: rgb(179, 226, 244);
-        
 }
 .icons2{
-    font-size: 3em;
+    font-size: 4em;
     padding: 0.2em 0.2em;
     color:grey;
     font-weight: bold;
 }
+
 .true{
     transition: 0.2s ease-in-out;
     transform: rotate(180deg);
+}
+
+@media screen and (max-width: 780px){
+    .flex {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+    img{
+        display: none;
+    }
 }

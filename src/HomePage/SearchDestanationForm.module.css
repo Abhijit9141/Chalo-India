@@ -1,59 +1,91 @@
-.form div{
+ .form{
+    box-shadow: 30 20 10  transparent;
+    transition: box-shadow 200ms ease-out 0s;
+
+ }
+ .form div{ 
+    display: flex;
+    width: 60%;
     position: absolute;
-    top: 47%;
-    left: 47%;
-    transform: translate(-50% , -50%);
-    padding: 0.5em 2em;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     border-radius: 15px;
     background-color: white;
 }
-
+.form .div1{
+    display: flex;
+    width: 60%;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    background-color: white;
+    border:1px solid black
+}
 .form input {
     height: 2em;
-    padding: 0.4em;
+    padding: 0.4em ;
     border-left: none;
     border-bottom: none;
     border-top: none;
-    margin: 0 1.5em;
+    margin: 0.2em ;
+    margin-top: 1em;
+    width: 15em;
 }
-.form input:nth-last-child(1) {
+.form .inpnum {
     border-right: none;
-    width: 5em;
-    margin: 0;
+    width: 3em;
 }
-.form input:focus {
+
+.form input:focus,.form .inpnum:focus {
  border: none;
+ 
 }
 .form button{
-    position: absolute;
-    top: 47%;
-    left: 73.5%;
-    transform: translate(-50% , -50%); 
-    display: inline-block;
-    height: 3.58em;
+    height: 4em;
     border: none;
     background-color: #00aff5;
-    width: 10em;
-    border-left: none;
+    width: 15em;
     color: white;
-    border-top-right-radius:15px ;
-    border-bottom-right-radius :15px
+    border-top-right-radius:14px ;
+    border-bottom-right-radius :14px
 }
-.form .icons1 {
-    position: absolute;
-    font-size: 2.5em;
-    color: gray;
-    margin-top: 0.2em;
-    margin-left: -0.2em;
-}
-.form .icons{
-    position: absolute;
+
+.form .icons1{
+    display: flex;
     font-size: 2em;
     color: gray;
-    margin-top: 0.3em;
-    margin-left: -0.7em;
+    margin-top: 0.8em;
+    margin-left: 0.5em;
+}
+.form .icons{
+    font-size: 2em;
+    color: gray;
+    margin-top: 0.6em;
+    
 }
 .form input:focus{
     outline: none;
     border-right: 2px solid gray;
 }
+.input{
+    font-weight: 600;
+}
+
+
+/********************responsive************************/
+
+@media screen and (max-width: 1000px ) {
+    .form div{
+      width: 80%;
+    }
+    .form input{
+        
+        display: block;
+    }
+}
+
+
+

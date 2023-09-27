@@ -28,6 +28,7 @@ const AboutTravel = () =>{
         </div>
         
         <div className={`${styles["about-document"]}`}>
+            
             <div className={styles.info}>
             <h1>Your safety is our priority</h1>
             <p>At Chalo-India, we're working hard to make our platform as secure as it can be. But when scams do happen, we want you to know exactly how to avoid and report them. Follow our tips to help us keep you safe.</p>

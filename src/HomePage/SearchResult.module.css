@@ -1,0 +1,23 @@
+.search-results{
+    font-size: 2em;
+    width: 20%;
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: white;
+    backface-visibility: hidden;
+}
+
+.resutls-item{
+    padding: 0.4em;
+    display: flex;
+    padding-left: 1em;
+    justify-content: space-between;
+}
+.resutls-item:hover{
+    background-color: rgb(241, 241, 241);
+    border-radius: 15px;
+}
+.icon{
+    font-size: 1.7em;
+    padding-top: 0.5em;
+}

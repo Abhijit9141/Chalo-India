@@ -1,11 +1,25 @@
-import LogIn from "./LogIn";
-import SignUp from "./SignUp";
-const GrantAccess = () =>{
-    return(
-        <>
-        <SignUp />
-        <LogIn />
-        </>
-    )
-}
-export default GrantAccess;
+// import LogIn from "./LogInName";
+// import SignUp from "./SignUp";
+// import NavBar from "../HomePage/NavBar";
+// import SignUpName from "./SignUpName";
+// import SignUpEmail from "./SignUpEmail";
+// import SignUpPassword from "./SignUpPassword";
+// import SignUpConfirmPassword from "./SignUpConfirmPassword";
+// const GrantAccess = () =>{
+//     const submitHandler = () =>{
+
+//     }
+//     return(
+//         <>
+//         <form onSubmit={submitHanler}>
+//             <div>
+//                 <SignUpName />
+//                 <SignUpEmail />
+//                 <SignUpPassword />
+//                 <SignUpConfirmPassword />
+//             </div>
+//         </form>
+//         </>
+//     )
+// }
+// export default GrantAccess;

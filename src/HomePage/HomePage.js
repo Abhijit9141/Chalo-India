@@ -2,8 +2,8 @@ import Image from "./Image";
 import AboutTravel from "./AboutTravel";
 import UseDetails from "./UseDetails";
 import LinkDetails from "./LinkDetails";
-  
 const HomePage = () =>{
+    
 return(
     <>
     <section>

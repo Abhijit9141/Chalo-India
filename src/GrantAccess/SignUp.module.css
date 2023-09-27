@@ -1,35 +1,57 @@
-.form{
-    background-color: rgb(255,192,203);
-    width: 100vw;
-    height: 100vh;
-}
-.form div div{
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 5%;
-    font-size: 1.5em;
-    background-color: rgb(138,43,226);
-    padding: 5em;
-    border-radius: 10px;
-    border: 2px dotted black;
-}
-.form div {
-    padding: 1%;
+.signup-details p{
     text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #054652;
+    padding-top: 2em;
+}
+.select-signup{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 2.5em;
     
 }
-.form div input{
-    padding: 1em;
-    width: 20em;
-    margin-top: 2em;
+.select-signup div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7em;
+    padding:1.5em 1.3em;
+    font-weight:600;
+    
 }
-.form div button{
-    padding: 1em 9.5em;
-    margin-top: 0.8em;
-    background-color: rgb(127,255,212);
+.select-signup .link{
+    text-decoration: none;
+    color:#054652;
+    
 }
 
-.form div input:hover{
-    outline: none;
+.select-signup div:first-child{
+    border-bottom: 0.1px solid rgb(186, 186, 186);
 }
 
+.already-member{
+    font-size: 1.5em;
+    display: flex;
+    font-weight: 600;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 2.5em;
+    color:#054652;
+    padding-left: 1.3em;
+}
+.already-member .p{
+    text-decoration: none;
+    color: #00aff5;
+    padding-left: 0.5em;
+}
+.select-signup div:hover{
+    background-color: rgb(241, 241, 241);;
+    border-top-right-radius:12px ;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius:12px ;
+    border-bottom-left-radius: 12px;
+    
+}
+.bg-color{
+    background-color: rgb(186, 186, 186);
+}

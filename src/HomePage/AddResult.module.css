@@ -1,0 +1,37 @@
+.add-passanger{
+    border: 2px solid rgb(203, 201, 201);
+    border-radius: 10px;
+    display: flex;
+    width: 20%;
+    padding: 1.3em;
+    margin: 9.8% 50%;
+    font-size: 1.5em;
+    justify-content: space-between;
+    background-color: white;
+}
+ .add-passanger div{
+    display: flex;
+    
+}
+
+.add-passanger div p{
+    color: #00aff5;
+    font-size: 1.5em;
+}
+
+.add-passanger div p , 
+.add-passanger div h5{
+    
+    justify-content: center;
+    padding-left: 0.2em;
+    margin-left: 0.5em;
+    
+}
+
+.add-passanger div h5{
+    margin-top: -0.2em;
+    font-size: 1.3em;
+}
+.isValid{
+    color: grey;
+}

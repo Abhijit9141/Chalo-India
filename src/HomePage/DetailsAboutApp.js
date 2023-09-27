@@ -1,8 +1,0 @@
-// DetailsAboutApp = () =>{
-//     return(
-//         <>
-//         </>
-//     )
-// }
-
-// return DetailsAboutApp;
