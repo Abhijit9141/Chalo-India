@@ -1,0 +1,21 @@
+.ride-img{
+    margin-top: 8rem;
+    width: 98%vw;
+    height: 80vh;
+    background-image: url("../../../public/image/355119.jpg");
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ride-img h1{
+    text-align: center;
+    font: 300;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin: 2% 15%;
+    padding-top: 5rem;
+    color: black;
+}
+.destination-form{
+    display: block;
+}

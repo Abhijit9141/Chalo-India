@@ -1,7 +1,7 @@
 .search-results{
     font-size: 2em;
     width: 20%;
-    border: 2px solid red;
+    border: 1px solid grey;
     border-radius: 15px;
     background-color: white;
     backface-visibility: hidden;

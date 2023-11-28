@@ -1,8 +1,9 @@
 .header-image{
 
     background-image: url("../../public/image/abhija4.jpg");
+    margin-top: 8rem;
     width: 100%;
-    height: 35em;
+    height: 40em;
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;

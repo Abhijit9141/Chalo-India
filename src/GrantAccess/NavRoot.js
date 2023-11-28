@@ -1,4 +1,4 @@
-import SignUpNavBar from "./SignUpNavBar";
+import SignUpNavBar from "./SignUp/SignUpNavBar";
 import {Outlet} from "react-router-dom"
 const NavRoot = () =>{
     return(

@@ -1,15 +1,20 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import { AiOutlineRight } from "react-icons/ai";
-import Styles from "./SignUp.module.css"
-const SignUp = () =>{
+import NavBar from "../../HomePage/NavBar";
+import Styles from "../SignUp/SignUp.module.css"
+const LogIn = () =>{
+    const value = true;
+    
     return(
         <>
-        <header>
+        <NavBar values = {value} />
+        <header >
             <div className={Styles["signup-details"]}>
-                <p>How do you want to sign up?</p>
+                <p>How do you want to log in?</p>
                 <div className={Styles["select-signup"]}>
                 <div>
-                    <Link to="email" className={Styles.link}>Continue With Phone Number</Link>
+                    <Link to="loginname" className={Styles.link}>Continue With Phone Number</Link>
                     <AiOutlineRight />
                 </div>
                 <div>
@@ -19,11 +24,11 @@ const SignUp = () =>{
                 </div>
             </div>
             <div className={Styles["already-member"]}>
-                <p>Already a member?<Link to="../LogIn" className={Styles.p}>Log in</Link></p>
+                <p>Not a member yet?<Link to="../signup" className={Styles.p}>Sign up</Link></p>
             </div>
         </header>
         </>
     )
 }
 
-export default SignUp; 
+export default LogIn; 

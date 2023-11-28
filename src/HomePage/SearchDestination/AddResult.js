@@ -29,7 +29,18 @@ const AddResult = (props) =>{
     return(
 
         <>
-        <div className={Styles["add-passanger"]}>
+        {
+         props.setCheckValue ? 
+        <div className={Styles["add-passanger"]} style={{margin:"-15% 35%"} }>
+         <p>{value <= 1 ? "Passenger" : "Passengers"}</p>
+         <div>
+         <p onClick={changeValuePlusHandler}><AiOutlinePlusCircle className={getValid.plus ? Styles.isValid : ""}/></p>
+         <h5>{value}</h5>
+         <p onClick={changeValueMinusHandler}><AiOutlineMinusCircle className={getValid.minus ? Styles.isValid : ""}/></p>
+        </div>
+         </div>
+         :
+        <div className={Styles["add-passanger"]} style={props.otherPage ? {margin: "11% 50%"} : {margin:"9.8% 50%"} }>
         <p>{value <= 1 ? "Passenger" : "Passengers"}</p>
         <div>
         <p onClick={changeValuePlusHandler}><AiOutlinePlusCircle className={getValid.plus ? Styles.isValid : ""}/></p>
@@ -37,6 +48,7 @@ const AddResult = (props) =>{
         <p onClick={changeValueMinusHandler}><AiOutlineMinusCircle className={getValid.minus ? Styles.isValid : ""}/></p>
         </div>
         </div>
+        }
         </>
     )
 }

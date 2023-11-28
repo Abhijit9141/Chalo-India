@@ -1,4 +1,4 @@
-import useValidInput from "./use-ValidInput";
+import useValidInput from "../use-ValidInput";
 import Styles from "./SignUpEmail.module.css";
 import { Link } from "react-router-dom";
 const SignUpName = () =>{

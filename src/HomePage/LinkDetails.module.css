@@ -8,6 +8,7 @@
 .diff-links p{
     font-size: 1.4em;
     padding-top: 2em;
+    font-weight: 500;
 }
 .flex{
     display: flex;

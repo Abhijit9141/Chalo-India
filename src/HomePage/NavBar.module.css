@@ -4,7 +4,14 @@
 .nav{
     height: 8rem;
     justify-content: space-between;
-    background-color: white;    
+    background-color: white;  
+    z-index: 1;  
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.after-link{
+    display: flex;
 }
 
 .flex{
@@ -37,7 +44,6 @@
 .flex img{
     width:4.5em;
     height: 3.5em;
-    margin-top: 1.5em;
 }
 .nav-items .user-icon{
     font-size: 4em;
@@ -51,6 +57,16 @@
     padding: 0.2em 0.2em;
     color:grey;
     font-weight: bold;
+}
+.img-data{
+    display: flex;
+    margin-left:-1em ;
+    color: #054652;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.img-data h1{
+    padding: 1em 0.5em;   
 }
 
 .true{

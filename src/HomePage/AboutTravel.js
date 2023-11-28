@@ -3,7 +3,8 @@ import { LiaIdCard} from "react-icons/lia";
 import { PiCarProfileDuotone } from "react-icons/pi";
 import styles from "./AboutTravel.module.css";
 import Container from "./Container.module.css";
-
+import { Link } from "react-router-dom";
+import PickUp from "../PublishRide/PickUp";
 
 const AboutTravel = () =>{
     return(
@@ -42,7 +43,7 @@ const AboutTravel = () =>{
             <div>
             <h1>Driving in your car soon?</h1>
             <p>Good news, drivers: get rewarded for your good habits! Earn the Carpool Bonus by completing 3 carpools in 3 months. See eligibility conditions.</p>
-            <button>Offer a Ride</button>
+            <Link to="./pick-up"><button>Offer a Ride</button></Link>
             </div>
         </div>
         

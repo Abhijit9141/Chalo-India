@@ -1,0 +1,57 @@
+.publish-ride{
+    margin: 1% 15%;
+    width: 32em;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 0.9em;
+}
+.publish-form input{
+    flex-direction: column;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+    background-color: none;
+    padding-left: 0.3em;
+}
+.publish-form label{
+    font-size: 1.5em;
+}
+.publish-form{
+    font-size: 1.5em;
+}
+
+.publish-ride p{
+    font: 400;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: black;
+    padding-top: 1rem;
+    width: 85%;
+    margin: 0 auto;
+    color: #054652;
+}
+.publish-form div{
+    display: flex;
+    padding: 1.5em 0;
+    width: 80%;
+    margin: 0 auto;
+    color: grey;
+    border-bottom: 0.5px solid grey;
+}
+.publish-ride button{
+    display: block;
+    width: 100%;
+    margin-top: 0.8em;
+    padding: 1.1em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #00aff5;
+    color: white;
+    font-weight: 500;
+    border: none;
+    font-size: 1.8em;
+}

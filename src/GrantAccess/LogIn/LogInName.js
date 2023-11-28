@@ -1,25 +1,32 @@
 import { useNavigate } from "react-router-dom";
-import Styles from "./SignUpEmail.module.css";
-import NavBar from "../HomePage/NavBar";
-import useValidInput from "./use-ValidInput";
+import Styles from "../SignUp/SignUpEmail.module.css";
+import NavBar from "../../HomePage/NavBar";
+import useValidInput from "../use-ValidInput";
 import axios from "axios";
+import { useState } from "react";
 
 
 const LogIn = () => {
+    const[showError , getError] = useState("");
     const value = true;
     const navigate = useNavigate()
     
      const loginDetails = async() =>{
 
-           const url = "http://localhost:5000/v1/LogIn";
-           const response = await axios.post(url,{
-               phone:phonevalue,
-               password:passwordvalue
-           });
-           if(response){
-            console.log(response.data); 
-            navigate("/Search-Cars");
-           }   
+try{
+    const url = "http://localhost:5000/v1/LogIn";
+    const response = await axios.post(url,{
+        phone:phonevalue,
+        password:passwordvalue
+    });
+    if(response){
+     console.log(response.data); 
+     navigate("/Search-Cars");
+    }   
+}catch(e){
+    getError(e.response.data.message);
+    console.log(e.message);
+}
      }
 
     const {
@@ -65,6 +72,7 @@ const LogIn = () => {
                     onBlur={passwordblurhandler}
                     />
                     <br />
+                    {showError && <p style={{ fontSize:"1.3em" ,fontWeight:"normal" ,marginLeft:"-31%" ,color:"red" }}>{showError}</p>}
                     <p style={{color:"#00aff5" , 
                               fontSize:"1.8em",
                               fontWeight:"600", 
